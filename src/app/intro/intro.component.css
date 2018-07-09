@@ -1,0 +1,37 @@
+:host {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.brand {
+    position: relative;
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
+
+    color: #fff;
+}
+
+.brand > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+}
+
+.brand > h1 {
+    font-weight: 100;
+    letter-spacing: 10px;
+
+    font-family: 'Courier New', Courier, monospace;
+
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 5s;
+}
+
+footer {
+    color: #fff;
+}
