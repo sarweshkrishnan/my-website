@@ -6,11 +6,18 @@
 
 .brand {
     position: relative;
-    width: 100%;
-    margin-top: 10%;
+    width: 55%;
+    margin: 0 auto;
     text-align: center;
 
     color: #fff;
+    font-family: "Source Sans Pro";
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
 
 .brand > img {
@@ -24,14 +31,21 @@
     letter-spacing: 10px;
 
     font-family: 'Courier New', Courier, monospace;
-
-    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 5s;
 }
 
-footer {
+.contact {
+    position: relative;
+    text-align: center;
+}
+a {
+    color: #888888;
+    text-decoration: none;
+    transition: 1s color;
+}
+a:hover {
     color: #fff;
+}
+
+.contact > a {
+    margin: 20px 20px 0px 10px;
 }

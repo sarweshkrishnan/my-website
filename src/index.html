@@ -5,15 +5,20 @@
   <title>Sarwesh Krishnan</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css" rel="stylesheet">
 </head>
 <body>
-  <canvas id="theapt" width="100%" height="100%"></canvas>
-  <app-root>
-      <mat-progress-spinner
-      class="progress-spinner"
-      mode="indeterminate">
-  </mat-progress-spinner>
-  </app-root>
+  <app-root></app-root>
 </body>
 <script src="./assets/js/background.js"></script>
+	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js"></script>
+<script>
+  $('#fullpage').fullpage({
+    controlArrows: false,
+    slidesNavigation: true
+  });
+</script>
 </html>
