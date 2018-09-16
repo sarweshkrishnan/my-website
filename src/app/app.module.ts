@@ -5,11 +5,13 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 import { AppComponent } from './app.component';
 import { IntroComponent } from './intro/intro.component';
+import { DetailsComponent } from './details/details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    IntroComponent
+    IntroComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,

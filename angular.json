@@ -27,6 +27,7 @@
               "./node_modules/font-awesome/css/font-awesome.min.css"
             ],
             "scripts": [
+              "./node_modules/typed.js/lib/typed.min.js"
             ]
           },
           "configurations": {

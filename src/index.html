@@ -9,9 +9,8 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css" rel="stylesheet">
 </head>
 <body>
-  <app-root></app-root>
+  <app-root style="background: url('./assets/background.png')"></app-root>
 </body>
-<script src="./assets/js/background.js"></script>
 	
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js"></script>
@@ -19,6 +18,17 @@
   $('#fullpage').fullpage({
     controlArrows: false,
     slidesNavigation: true
+  });
+
+  var typed3 = new Typed('#typed', {
+    strings: ['C++', 'C#', 'PYTHON', 'NODE.JS', 'JAVASCRIPT', 'PHP'],
+    typeSpeed: 50,
+    backSpeed: 50,
+    backDelay: 500,
+    startDelay: 1000,
+    smartBackspace: true, // this is a default
+    shuffle: true,
+    loop: true
   });
 </script>
 </html>

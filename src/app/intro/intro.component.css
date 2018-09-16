@@ -1,23 +1,11 @@
-:host {
+.brand {
     position: relative;
     width: 100%;
     height: 100%;
-}
-
-.brand {
-    position: relative;
-    width: 55%;
+    min-width: 350px;
     margin: 0 auto;
     text-align: center;
-
-    color: #fff;
-    font-family: "Source Sans Pro";
-
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
+    color: #888;
 }
 
 .brand > img {
@@ -26,24 +14,10 @@
     border-radius: 30%;
 }
 
-.brand > h1 {
-    font-weight: 100;
-    letter-spacing: 10px;
-
-    font-family: 'Courier New', Courier, monospace;
-}
-
 .contact {
     position: relative;
+    min-width: 222px;
     text-align: center;
-}
-a {
-    color: #888888;
-    text-decoration: none;
-    transition: 1s color;
-}
-a:hover {
-    color: #fff;
 }
 
 .contact > a {
