@@ -5,46 +5,25 @@
 html {
     background: #000;
 }
+
 body {
     background-image: url('./assets/background.png');
-
     font-family: 'Source Sans Pro';
     font-size: 18px;
     line-height: 21px;
-    color: #888;
-}
 
-h1 {
-    font-weight: 100;
-    font-size: 21px;
-    letter-spacing: 8px;
-    color: #888;
-
-    font-family: 'Courier New', Courier, monospace;
-}
-
-a {
-    color: #888888;
-    text-decoration: none;
-    transition: 1s color;
-}
-a:hover {
-    color: #fff;
+    overflow-y: auto;
 }
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span
 {
-    background: #fff;
+    background: #CCC;
 }
 
 #section1,
 #section1 .fp-slide,
 #section1 .fp-tableCell{
     height: auto !important;
-}
-
-.fp-slidesNav.bottom{
-    bottom: -30px;
 }
 
 @keyframes fadein {

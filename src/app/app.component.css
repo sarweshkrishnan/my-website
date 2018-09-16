@@ -1,21 +1,15 @@
 #left-container {
     float: left;
     position: relative;
-    width: 40%;
-    height: 60%;
-    min-width: 330px;
 
     margin: 5% 0%;
     padding: 5% 1%;
-    border-right: 1px solid #888;
+    border-right: 1px solid #ccc;
 }
 
 #right-container {
     position: relative;
     float: right;
-    width: 53%;
-    height: 60%;
-    min-width: 330px;
 
     margin: 3% 0%;
     padding: 5% 2%;
