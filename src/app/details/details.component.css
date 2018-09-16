@@ -4,23 +4,24 @@
 
 .typed-container > h1 {
     font-weight: 300;
-    font-size: 21px;
+    font-size: 30px;
     letter-spacing: 8px;
 }
 
 .skills-container {
     float: left;
     text-align: left;
-    width: 50%;
     min-width: 450px;
     min-height: 220px;
-    margin: 4% auto 0% auto;
+    margin: 2% auto 0% auto;
 }
-.skills-container > h1 {
+.skills-container > h2 {
     text-align: left;
     margin-top: 20px;
     font-family: Source Sans Pro;
     font-weight: 100;
+
+    color: #CCC;
 }
 
 .resume-button {

@@ -19,11 +19,11 @@ body {
 {
     background: #CCC;
 }
-
 html.fp-enabled, .fp-enabled body
 {
     overflow: auto !important;
 }
+
 #section1,
 #section1 .fp-slide,
 #section1 .fp-tableCell{
