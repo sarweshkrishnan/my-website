@@ -2,7 +2,7 @@
     float: left;
     position: relative;
 
-    margin: 5% 0%;
+    margin-top: 5%;
     padding: 5% 1%;
     border-right: 1px solid #ccc;
 }
@@ -11,8 +11,8 @@
     position: relative;
     float: right;
 
-    margin: 2% 0%;
-    padding: 6% 2%;
+    margin-top: 2%;
+    padding: 5% 2%;
 }
 
 #left-container {

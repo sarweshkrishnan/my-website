@@ -6,6 +6,7 @@
     font-weight: 300;
     font-size: 30px;
     letter-spacing: 8px;
+    margin-bottom: 20px;
 }
 
 .skills-container {
@@ -13,11 +14,10 @@
     text-align: left;
     min-width: 450px;
     min-height: 220px;
-    margin: 2% auto 0% auto;
+    margin: 1% auto 0% auto;
 }
 .skills-container > h2 {
     text-align: left;
-    margin-top: 20px;
     font-family: Source Sans Pro;
     font-weight: 100;
 
@@ -29,4 +29,17 @@
     padding: 0px 20px;
     background: #888;
     text-decoration: none;
+}
+
+.blog > h1 {
+    font-weight: 300;
+    font-size: 21px;
+    letter-spacing: 8px;
+    display: inline;
+
+    color: red;
+}
+
+.blog > a {
+    font-size: 10px;
 }

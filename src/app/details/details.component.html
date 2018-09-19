@@ -10,7 +10,7 @@
             <ul>
               <li>Programming Languages: C++, C#</li>
               <li>Scripting Languages: Node.js, Python, PHP</li>
-              <li>Web Technologies: CSS, HTML, JavaScript,</li>
+              <li>Web Technologies: CSS, HTML, JavaScript</li>
               <li>Frameworks: Angular, Express, Windows Presentation Foundation</li>
               <li>Tools: Git, Jenkins, TFS, Vim, Visual Studio</li>
             </ul>
@@ -32,7 +32,30 @@
     </div>
 
       <div class="slide" id="slide2" data-anchor="slide2">
-          PROJECT INFO: COMING SOON
+        <div class="skills-container col-lg-12 col-md-12">
+            <h2 style="font-weight: 800">PROJECTS</h2>
+            <div class="blog">
+                <h1>FANTASY LEAGUE</h1><a href="https://github.com/sarweshkrishnan/pplv2">Goto repo</a>
+                <p>Developed a fantasy league for 2015 Cricket World Cup. Designed gamification algorithms and scraping tools.</p>
+            </div>
+            <div class="blog">
+                <h1>PRAGYAN CMS</h1><a href="https://github.com/delta/pragyan">Goto repo</a>
+                <p>Developed modules in Pragyan CMS, an open-source Content Management System. Also created reusable CSS design templates.</p>
+            </div>
+            <div class="blog">
+                <h1>WHATELSE</h1><a href="https://github.com/sarweshkrishnan/whatelse">Goto repo</a>
+                <p>A HTML5/CANVAS game with awesome CSS and sound effects.</p>
+            </div>
+        </div>
+
+        <div class="skills-container col-lg-12 col-md-12">
+            <h2 style="font-weight: 800">BLOGS</h2>
+            <div class="blog" *ngFor="let blog of blogs;">
+                <h1 [innerHTML]="blog.title"></h1>
+                <a [href]="blog.link">Link to blog</a>
+                <p [innerHTML]="blog.excerpt">{{blog.excerpt}}</p>
+            </div>
+        </div>
       </div>
   </div>
 </div>
