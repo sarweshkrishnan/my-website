@@ -17,7 +17,7 @@
 
 #left-container {
     position: relative;
-    font-family: "Source Sans Pro";
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
 
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
