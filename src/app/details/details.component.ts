@@ -22,7 +22,7 @@ export class DetailsComponent {
         let title = res["posts"][i]["title"];
         let link = res["posts"][i]["URL"];
 
-        this.blogs[i] = {link, title, excerpt};
+        this.blogs.push({link, title, excerpt});
         i++;
       }
       

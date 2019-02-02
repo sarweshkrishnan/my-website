@@ -1,45 +1,56 @@
 .slide {
-    text-align: center;
+    padding: 1% 0%;
+    color: #cdcdcd;
 }
 
-.typed-container > h1 {
-    font-weight: 100;
-    font-size: 30px;
-    letter-spacing: 8px;
-    margin-bottom: 20px;
+h2 {
+    font-size: 2.5vw;
+    color: #ebcb00;
 }
-
-.skills-container {
-    float: left;
-    text-align: left;
-    min-width: 450px;
-    min-height: 220px;
-    margin: 1% auto 0% auto;
-}
-.skills-container > h2 {
-    text-align: left;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 100;
-
-    color: #CCC;
-}
-
-.resume-button {
-    font-size:  30px;
-    padding: 0px 20px;
-    background: #888;
-    text-decoration: none;
-}
-
 .blog > h1 {
     font-weight: 300;
-    font-size: 21px;
+    font-size: 1.7vw;
     letter-spacing: 8px;
     display: inline;
 
-    color: red;
+    color: #777777;
 }
 
 .blog > a {
-    font-size: 10px;
+    font-size: 0.7vw;
+}
+
+.contact {
+    position: relative;
+    min-width: 222px;
+    text-align: center;
+}
+
+.contact > a {
+        color: #777777;
+        text-decoration: none;
+        transition: 1s color;
+        
+        margin: 20px 20px 0px 10px;
+}
+.contact > a:hover {
+    color: #ffdc00;
+}
+
+.resume-button {
+    position: relative;
+    font-size: 1.7vw;
+    width: 50%;
+    padding: 0px 20px;
+    margin: 10px 25% 50px 25%;
+    background: #cccccc;
+}
+
+.resume-button > a {
+    color: #888888;
+    text-decoration: none;
+}
+
+.resume-button > a:hover {
+    color: #ffdc00;
 }

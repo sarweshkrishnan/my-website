@@ -1,61 +1,73 @@
 <div id="fullpage">
-  <div class="section" id="section1">
-      <div class="slide" id="slide1" data-anchor="slide1">
-        <div class="typed-container">
-            <h1> I DO DEVELOPMENT IN <span id="typed" style="color:red"></span></h1>
-        </div>
-        
-        <div class="skills-container col-lg-12 col-md-12">
-            <h2 style="font-weight: 800">PROGRAMMING SKILLS</h2>
-            <ul>
-              <li>Programming Languages: C++, C#</li>
-              <li>Scripting Languages: Node.js, Python, PHP</li>
-              <li>Web Technologies: CSS, HTML, JavaScript</li>
-              <li>Frameworks: Angular, Express, Windows Presentation Foundation</li>
-              <li>Tools: Git, Jenkins, TFS, Vim, Visual Studio</li>
-            </ul>
-        </div>
+        <div class="section" id="section1">
+            <div class="slide" id="slide1" data-anchor="slide1">
+              <div style="float: left; width: 55%;">
+                  <h2 style="font-weight: 800">PROGRAMMING SKILLS</h2>
+                  <ul>
+                    <li>Programming Languages: C++, C#</li>
+                    <li>Scripting Languages: Node.js, Python, PHP</li>
+                    <li>Web Technologies: CSS, HTML, JavaScript</li>
+                    <li>Frameworks: Angular, Express, Windows Presentation Foundation</li>
+                    <li>Tools: Git, Jenkins, TFS, Vim, Visual Studio</li>
+                  </ul>
+              </div>
 
-        <div class="skills-container col-lg-6 col-md-12">
-            <h2 style="font-weight: 800">EXPERIENCE</h2>
-            <ul>
-                <li>Software Engineer, Fidelity Investments</li>
-                <li>Software Engineering Intern, Fidelity Investments</li>
-            </ul>
-        </div>
+              <div style="float: left; width: 45%;">
+                  <h2 style="font-weight: 800;">EXPERIENCE</h2>
+                  <ul>
+                      <li>Software Engineer, Fidelity Investments</li>
+                      <li>Software Engineering Intern, Fidelity Investments</li>
+                  </ul>
+              </div>    
+          </div>
+      
+            <div class="slide" id="slide2" data-anchor="slide2">
+                  <h2 style="font-weight: 800">PROJECTS</h2>
+                  <div  class="blog">
+                      <h1>EVALUATION PORTAL</h1>
+                      <a href="https://github.com/sarweshkrishnan/Self-Evaluation-Portal-CSCE625">Goto repo</a>
+                      <p>Developed an evaluation portal to help students assess their preparation for taking graduate-level courses.</p>
+                </div>
+                <div  class="blog">
+                    <h1>PERSON RE-ID</h1>
+                    <a href="https://github.com/sarweshkrishnan/Person-ReID">Goto repo</a>
+                    <p>Trained the ResNet50 backbone network with images segmented using the Deeplab learning model.</p>
+                </div>
+                <div class="blog">
+                    <h1>PRAGYAN CMS</h1>
+                    <a href="https://github.com/delta/pragyan">Goto repo</a>
+                    <p>Developed modules in Pragyan CMS, an open-source Content Management System. Also created reusable CSS design templates.</p>
+                </div>
+            </div>
+      
+            <div class="slide" id="slide3" data-anchor="slide3">
+                <h2 style="font-weight: 800">BLOGS</h2>
+                <div class="blog" *ngFor="let blog of blogs;">
+                    <h1 [innerHTML]="blog.title"></h1>
+                    <a [href]="blog.link">Link to blog</a>
+                    <p [innerHTML]="blog.excerpt">{{blog.excerpt}}</p>
+                </div>
+            </div>
 
-        <div class="skills-container col-lg-6 col-md-12">
-            <h2 style="font-weight: 800">AND, HERE'S MY RESUME</h2>
-            <a class="resume-button" href="../../assets/Sarwesh_Krishnan_Resume.pdf">RESUME</a>
-        </div>
-            
-    </div>
+            <div class="slide" id="slide4" data-anchor="slide4">
+                <div class="contact">
+                        <h2 style="font-weight: 800">AND, HERE'S MY RESUME</h2>
+                        
+                        <div class="resume-button">
+                                <a href="../../assets/Sarwesh_Krishnan_Resume.pdf">RESUME</a>
+                        </div>
 
-      <div class="slide" id="slide2" data-anchor="slide2">
-        <div class="skills-container col-lg-12 col-md-12">
-            <h2 style="font-weight: 800">PROJECTS</h2>
-            <div class="blog">
-                <h1>FANTASY LEAGUE</h1><a href="https://github.com/sarweshkrishnan/pplv2">Goto repo</a>
-                <p>Developed a fantasy league for 2015 Cricket World Cup. Designed gamification algorithms and scraping tools.</p>
+                        <a href="mailto:sarwesh.krshnn@gmail.com">
+                            <fa name="envelope" size="3x"></fa>
+                        </a>
+                        <a href="https://linkedin.com/in/sarweshkrishnan">
+                            <fa name="linkedin" size="3x"></fa>
+                        </a>
+                        <a href="https://github.com/sarweshkrishnan">
+                            <fa name="github" size="3x"></fa>
+                        </a>
+                    </div>
             </div>
-            <div class="blog">
-                <h1>PRAGYAN CMS</h1><a href="https://github.com/delta/pragyan">Goto repo</a>
-                <p>Developed modules in Pragyan CMS, an open-source Content Management System. Also created reusable CSS design templates.</p>
-            </div>
-            <div class="blog">
-                <h1>WHATELSE</h1><a href="https://github.com/sarweshkrishnan/whatelse">Goto repo</a>
-                <p>A HTML5/CANVAS game with awesome CSS and sound effects.</p>
-            </div>
-        </div>
-
-        <div class="skills-container col-lg-12 col-md-12">
-            <h2 style="font-weight: 800">BLOGS</h2>
-            <div class="blog" *ngFor="let blog of blogs;">
-                <h1 [innerHTML]="blog.title"></h1>
-                <a [href]="blog.link">Link to blog</a>
-                <p [innerHTML]="blog.excerpt">{{blog.excerpt}}</p>
-            </div>
+              
         </div>
       </div>
-  </div>
-</div>
